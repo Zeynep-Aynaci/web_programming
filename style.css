@@ -1,0 +1,33 @@
+h2{
+    color: blue; font-size: 20px; text-align: center;
+}
+h2{
+    border:2px solid blue;
+}
+
+p{
+    color: darkgrey; font-size: 15; text-align: justify;
+}
+
+  /* __GROUP SELECTORS__(external 1 sayfasına git)
+   p{} --> tüm p etiketleri
+   div p {} --> div içindeki tüm p etiketleri
+   div,p {} --> tüm div ve tüm p etiketleri
+   p + div {} --> p etiketinden sonra gelen tüm div etiketleri
+   */
+
+
+   p{
+    color: brown;
+   }
+
+   div p {                  /*divin içindeki p etiketleri*/
+    color: aqua;
+   }
+
+   div + p {                /*div den sonra gelen p etiketleri*/
+    color: chocolate;
+   }
+   .container {             /*conteiner isimli divin içindeki herşeyi kapsar*/
+    color: darkgreen;
+   }

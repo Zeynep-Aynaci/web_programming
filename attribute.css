@@ -1,0 +1,21 @@
+h2[title="başlik 1"]{
+    color: brown;
+}
+h2[title="başlik 2"]{
+    color: aqua;
+}
+p[title="paragraf 1"]{
+    color: gray; font-size: 15px; text-align: justify;
+}
+a[target="_blank"]{
+    color: chartreuse;
+}
+input[type="text"]{
+    background-color: chocolate;
+}
+input{
+    background-color: aquamarine;
+}
+select{
+    background-color: blueviolet;
+}

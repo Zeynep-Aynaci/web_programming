@@ -1,0 +1,39 @@
+
+/*PSEUDO ELEMENT*/
+
+p::first-line{
+    font-weight: bold;  color: darkred;
+    word-spacing: 2px; letter-spacing: 1px;
+}
+p::first-letter{
+    font-size: 50px;
+}
+
+/*PSEUDO CLASS*/
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+background-color: rgb(180, 239, 239);
+
+}
+ul li:last-child{
+    background-color: rgb(234, 196, 150);
+}
+a:visited{                                           /*ziyaret edilen linke özellik verir*/
+    color: rgb(128, 249, 7);
+}
+a:hover{                                             /*linklerin üzerine gelindiğinde nasıl gözükeceğini ayarlar*/
+color: aliceblue;
+background-color: lightblue;
+}
+a{
+    padding: 5px 10px;                              /*padding boş bir kutu gibi düşün görünmez kutu oluşturmak*/
+    text-decoration: none;                          /*text decoration underline gibi altı üstü çizili olsun mu demek*/
+    display: block;                                 /*alt alta getiriyor*/
+    width: 100px;
+    margin-bottom: 10px;
+}

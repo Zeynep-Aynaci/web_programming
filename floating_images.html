@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Images</title>
+    <style>
+        img[title="img1"] {
+            width: 200px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        img[title="img2"] {
+            float: right;
+            width: 200px;
+            height: 300px;
+        }
+
+        img[title="img3"] {
+            float: right;
+            width: 200px;
+            height: 300px;
+        }
+
+        img[title="img4"] {
+            float: right;
+            width: 200px;
+            height: 300px;
+        }
+
+        .part1 {
+            padding: 20px;
+            background-color: rgb(252, 146, 146);
+            border:2px solid rgb(86, 2, 19);
+            overflow: auto;
+            height: 500px;
+        }
+
+        .part0 {
+            padding: 20px;
+            background-color:wheat;
+            overflow: scroll;
+            border:8px solid rgb(157, 73, 13);
+            width: 400px;
+            height: 500px;
+        }
+
+        .part0 p {
+            font-size: 18px;
+            color: rgb(146, 3, 58);
+
+        }
+
+        p[title="par1"]::first-letter {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        #kapsayici {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="kapsayici">
+        <div class="part0">
+            <h1 style="color: rgb(137, 24, 47);">Lorem ipsum dolor sit amet.</h1>
+            <p title="par1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, voluptatem
+                debitis
+                earum dicta
+                nisi
+                repellat magni saepe distinctio velit quia cupiditate, molestias inventore quos repudiandae consequatur,
+                tempore
+                itaque rerum.</p>
+                <a href="#">Görmek için tıkla</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, voluptatem debitis earum
+                dicta
+                nisi
+                repellat magni saepe distinctio velit quia cupiditate, molestias inventore quos repudiandae consequatur,
+                tempore
+                itaque rerum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, voluptatem
+                debitis earum
+                dicta
+                nisi
+                repellat magni saepe distinctio velit quia cupiditate, molestias inventore quos repudiandae consequatur,
+                tempore
+                itaque r</p>
+        </div>
+        <div class="part1">
+            <img title="img1" src="images/1.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p>
+            <img title="img2" src="images/2.jpg" alt="">
+            <img title="img3" src="images/3.jpg" alt="">
+            <img title="img4" src="images/4.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae obcaecati error perspiciatis veniam ipsum
+                eum
+                aliquid. A iste distinctio iusto omnis totam, dignissimos rerum sunt itaque est molestiae expedita
+                libero.
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
