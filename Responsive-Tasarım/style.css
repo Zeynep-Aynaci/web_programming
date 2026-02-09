@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+
+
+body{
+     font-family: "Open Sans", sans-serif;
+     font-size: 1.6rem;
+     line-height: 1.5;
+     text-align: center;
+     background-color:rgb(46, 45, 45);
+     color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+padding: 1.6rem 0;
+}
+.clearfix::after{
+    content: "";       //içerik olarak boş pseduo element ekler
+    display: block;    // divler yana geldiğinde bozulan akişi düzeltmek için eklediğimiz  ...devami aşağida
+    clear: both;       //pseduo elementin sağindaki ve solundaki floating yapilarini temizler.
+
+}
+header{
+    height: 46rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header .bg-image{
+    position: absolute;
+    background-image: url(İmages/ecosystem.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity:0.6;
+    z-index: -1;
+}
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+.btn{
+    display: inline-block;
+    padding:1.6rem 3.2rem ;
+    margin: 1rem 0;
+    background-color: rgb(2, 45, 58);
+    color: white;
+    border: 1px solid white ;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: white;
+    color:  rgb(2, 32, 41);
+    border: 2px solid rgb(2, 45, 58);
+   
+}
+#section-a{
+    background-color: aliceblue;
+    color: rgb(1, 48, 65);
+}
+#section-b {
+    padding: 1.6rem;
+}
+#section-b ul{
+  list-style: none;
+}
+#section-b li{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-bottom: 1.6rem;
+}
+.col-content{
+    padding: 3.2rem;
+}
+#section-c{
+    background-color: rgb(193, 193, 193);
+    color: black;
+    padding: 5rem;
+}
+ .box{
+    padding: 4.5rem;
+}
+.box:first-child{
+    background-color: rgb(28, 56, 47);
+}
+footer{
+    background-color: black;
+    padding: 4rem;
+}
+footer a{
+    color: rgb(186, 211, 139);
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 11px;
+    }
+    #section-b li{
+       width: 33%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+       float: left;
+    }
+}
